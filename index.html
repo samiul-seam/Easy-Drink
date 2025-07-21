@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Easy Drink</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container main-layout">
+        <div class="left-side">
+            <div class="search-section">
+                <input type="text" id="searchInput" placeholder="Search for drinks..." />
+                <button id="searchBtn">Search</button>
+            </div>
+
+            <div id="drinksContainer">
+
+            </div>
+        </div>
+
+        <div id="groupPanel">
+            <h4>You have selected <span id="drinkCount">0 out of 7 drinks</span></h4>
+            <ul id="groupList" ></ul>
+        </div>
+    </div>
+
+    <div class="modal" id="drinkModal">
+        
+        <div class="modal-content" id="modalContent">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
