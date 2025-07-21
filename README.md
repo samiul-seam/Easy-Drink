@@ -1,4 +1,3 @@
-# Easy-Drink
 
 Welcome to the repository for Easy Drink — responsive drink recipe web app built with HTML, CSS, Bootstrap, and JavaScript.
 
